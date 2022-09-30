@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tutorial de javascript </title>
+<meta chaset=""utf-8"">
+
+<script type="text/javascript">
+<!--
+    //var mensaje= "Bienvenido";
+    //var resultado= mensaje.toLowerCase();
+    //var mensaje_mayuscula=mensaje.toUpperCase();
+    //alert(mensaje);
+    //alert(resultado);
+    //alert(mensaje_mayuscula);
+    //alert(mesnaje);
+
+
+
+    function x (tipo)
+    {
+        var mensaje= document.getElementById("mensaje");
+        var texto= mensaje.value;
+        if(tipo == 1){
+            mensaje.value = texto.toUpperCase();
+        } 
+        else if(tipo == 2){
+            mensaje.value = texto.toLowerCase();
+        }
+    }
+ //->
+</script>
+</head>
+
+<body>
+
+    <h2> hola</h2>
+    
+<input type="text" id="mensaje" value=""/>
+<input type="button" onclick="x(1);" id="boton"
+         value="Convertir Mayuscula"/>
+
+<input type="button" onclick="x(2);" id="boton2"
+          value="Convertir Minuscula"/>
+          <h2> commit2</h2>
+
+<p> esta rama reconocida en footer</p>
+</body>
+</html>
